@@ -1,0 +1,58 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+.pokemon-selection h2,
+.battle-page h2 {
+  margin-top: 0;
+}
+
+.pokemon-list {
+  display: flex;
+  justify-content: center;
+}
+
+.pokemon {
+  margin: 10px;
+}
+
+.pokemon img {
+  height: 200px;
+}
+
+.pokemon button {
+  display: block;
+  margin-top: 10px;
+}
+
+.health-bar {
+  width: 100%;
+  height: 20px;
+  background-color: gray;
+  margin-top: 10px;
+  position: relative;
+}
+
+.health {
+  width: 100%;
+  height: 100%;
+  background-color: green;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.attack-options {
+  margin-top: 10px;
+}
+
+.attack-options button {
+  margin-right: 10px;
+}
